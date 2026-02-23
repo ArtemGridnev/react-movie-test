@@ -11,9 +11,9 @@
 ✅ 4 cards/row + keyboard grid navigation  
 
 ## Tech Stack
-React 18 + Redux Toolkit + **Redux-Saga** + Material UI + TMDB API
+**Vite** + React 18 + Redux Toolkit + **Redux-Saga** + Material UI + TMDB API
 
-## Installation
+## Installation & Setup
 ```bash
 npm install
-npm start
+npm run dev
