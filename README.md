@@ -17,3 +17,13 @@
 ```bash
 npm install
 npm run dev
+```
+## Environment Variables
+
+This project uses the TMDB API.
+
+Create a `.env` file in the root of the project and add:
+
+```env
+VITE_TMDB_API_KEY=your_api_key_here
+```
