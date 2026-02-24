@@ -74,11 +74,6 @@ const uiSlice = createSlice({
         gridMoveRight(state, action: PayloadAction<number>) {
             const maxIndex = action.payload - 1;
 
-            console.log(Math.min(
-                state.gridFocusedIndex + 1,
-                maxIndex
-            ));
-
             state.gridFocusedIndex = Math.min(
                 state.gridFocusedIndex + 1,
                 maxIndex

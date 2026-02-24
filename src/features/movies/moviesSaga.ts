@@ -16,7 +16,7 @@ import {
 import type { Movie } from "../../types/movie";
 import { selectAiringNowPage, selectPopularPage } from "./moviesSelectors";
 
-const API_KEY = "3527207d6cbad029e45de029b7fedc01";
+const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 const BASE_URL = "https://api.themoviedb.org/3";
 
 export type MoviesQueryObject = {
